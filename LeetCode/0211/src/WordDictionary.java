@@ -1,6 +1,7 @@
 import java.util.HashMap;
 
-/**
+/**211. 添加与搜索单词 - 数据结构设计
+ * https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/description/
  * Created by 老蹄子 on 2018/8/25 下午9:44
  */
 class WordDictionary {
