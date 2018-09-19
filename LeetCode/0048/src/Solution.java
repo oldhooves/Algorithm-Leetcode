@@ -6,7 +6,7 @@
 class Solution {
 
     public void rotate(int[][] matrix) {
-        
+
         if (matrix.length == 0){
             return;
         }
