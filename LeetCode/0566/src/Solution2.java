@@ -2,7 +2,7 @@
  * Created by 老蹄子 on 2018/9/25 下午10:10
  */
 class Solution2 {
-    
+
     public int[][] matrixReshape(int[][] nums, int r, int c) {
 
         int rows = nums.length;
