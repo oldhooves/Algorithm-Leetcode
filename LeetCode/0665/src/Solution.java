@@ -1,5 +1,4 @@
 import com.sun.deploy.util.ArrayUtil;
-import com.sun.tools.javac.util.ArrayUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,7 +29,7 @@ class Solution {
         if (left != -1){
             list1.remove(left);
         }
-        
+
 
         ArrayList<Integer> list2 = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
