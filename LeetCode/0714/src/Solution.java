@@ -8,6 +8,7 @@ class Solution {
         if (prices.length == 0){
             return 0;
         }
+        //dp[i][0]代表第i天手中没有股票时能赚的最高价，dp[i][1]代表第i天手中有股票时所赚的最高价
         int[][] dp = new int[50000][2];
         dp[0][0] = 0;
         dp[0][1] = -prices[0];
