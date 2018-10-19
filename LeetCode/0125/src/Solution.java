@@ -25,7 +25,7 @@ class Solution {
         int end = count - 1;
         while (start < end){
 
-            if ((ch[start] == ch[end]) || (Math.abs(ch[start] - ch[end]) == 32) && ch[start] >= 'A' && ch[end] >= 'A'){
+            if ((ch[start] == ch[end]) || (Math.abs(ch[start] - ch[end]) == 32 && ch[start] >= 'A' && ch[end] >= 'A')){
                 start++;
                 end--;
             }else {
