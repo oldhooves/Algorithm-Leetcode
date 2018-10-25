@@ -13,9 +13,7 @@ class Solution {
         if (str.length() == 0){
             return 0;
         }
-        while (str.charAt(index) == ' ' && index < str.length()) {
-            index++;
-        }
+        
         if (str.charAt(index) == '+' || str.charAt(index) == '-') {
             sign = str.charAt(index) == '+' ? 1 : -1;
             index++;
