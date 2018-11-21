@@ -6,7 +6,7 @@ import java.util.Map;
  * https://leetcode-cn.com/problems/encode-and-decode-tinyurl/description/
  * Created by 老蹄子 on 2018/11/21 下午3:22
  */
-public class Codec {
+class Codec {
 
     Map<Integer,String> map = new HashMap<>();
     String host = "http://tinyurl.com/";
