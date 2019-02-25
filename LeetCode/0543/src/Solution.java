@@ -24,7 +24,7 @@ class Solution {
 
     public int depth(TreeNode node) {
         if (node == null) {
-            return 0;
+            return 0 ;
         }
         int L = depth(node.left);
         int R = depth(node.right);
